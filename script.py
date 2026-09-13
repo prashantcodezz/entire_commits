@@ -1,7 +1,7 @@
 import subprocess
 from datetime import datetime, timedelta
 
-DAYS_BACK = 7
+DAYS_BACK = 365
 COMMITS_PER_DAY = 2
 
 start_date = datetime.now() - timedelta(days=DAYS_BACK)
